@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 import Title from './components/Title';
 import TodoForm from './components/TodoForm';

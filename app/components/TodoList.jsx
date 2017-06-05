@@ -1,8 +1,6 @@
 import React from 'react';
 import {Todo} from './Todo';
 
-
-
 const TodoList = ({todos, remove}) => {
     // Map through the todos
     const todoNode = todos.map((todo) => {
