@@ -1,0 +1,44 @@
+body{
+    background-color: #f2eee2;
+    font-size: 14px;
+    font-family: Aller;
+    text-align: center;
+}
+#container {
+    margin: 0 auto;
+    width: 50vw;
+}
+h1 {
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.todo,
+input{
+    background-color: white;
+    border: 1px #43c0f6 solid;
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+input{
+    background-color: white;
+    border: 1px #f81b84 solid;
+    border-radius: 5px;
+}
+input:focus{
+    border: 1px #43c0f6 solid;
+    border-radius: 5px;
+    outline:none;
+}
+.todo:hover {
+    background-color: #43c0f6;
+}
+a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
